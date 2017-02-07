@@ -43,8 +43,8 @@
       this.btnPrev = new System.Windows.Forms.ToolStripButton();
       this.btnNext = new System.Windows.Forms.ToolStripButton();
       this.btnLast = new System.Windows.Forms.ToolStripButton();
-      this.btnComplete = new System.Windows.Forms.ToolStripButton();
       this.btnResume = new System.Windows.Forms.ToolStripButton();
+      this.btnComplete = new System.Windows.Forms.ToolStripButton();
       this.toolStrip1.SuspendLayout();
       this.SuspendLayout();
       // 
@@ -124,28 +124,28 @@
       // btnFilter
       // 
       this.btnFilter.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.btnFilter.Image = global::BaseConocimiento.Properties.Resources.searching_magnifying_glass;
+      this.btnFilter.Image = global::BaseConocimiento.Properties.Resources.shopping_2;
       this.btnFilter.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnFilter.Name = "btnFilter";
       this.btnFilter.Size = new System.Drawing.Size(28, 29);
-      this.btnFilter.ToolTipText = "Buscar";
+      this.btnFilter.ToolTipText = "Buscar Tickets";
       this.btnFilter.Click += new System.EventHandler(this.toolStripButton1_Click);
       // 
       // btnNOFilter
       // 
       this.btnNOFilter.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.btnNOFilter.Image = global::BaseConocimiento.Properties.Resources.history_clock_button;
+      this.btnNOFilter.Image = global::BaseConocimiento.Properties.Resources.shopping_9;
       this.btnNOFilter.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnNOFilter.Name = "btnNOFilter";
       this.btnNOFilter.Size = new System.Drawing.Size(28, 29);
       this.btnNOFilter.Text = "toolStripButton1";
-      this.btnNOFilter.ToolTipText = "Recargar tickets";
+      this.btnNOFilter.ToolTipText = "Recargar Tickets";
       this.btnNOFilter.Click += new System.EventHandler(this.btnNOFilter_Click);
       // 
       // btnDownload
       // 
       this.btnDownload.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.btnDownload.Image = global::BaseConocimiento.Properties.Resources.download_button;
+      this.btnDownload.Image = global::BaseConocimiento.Properties.Resources.shopping_10;
       this.btnDownload.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnDownload.Name = "btnDownload";
       this.btnDownload.Size = new System.Drawing.Size(28, 29);
@@ -155,7 +155,7 @@
       // btnFirst
       // 
       this.btnFirst.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.btnFirst.Image = global::BaseConocimiento.Properties.Resources.track;
+      this.btnFirst.Image = global::BaseConocimiento.Properties.Resources.arrows_6;
       this.btnFirst.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnFirst.Name = "btnFirst";
       this.btnFirst.Size = new System.Drawing.Size(28, 29);
@@ -165,7 +165,7 @@
       // btnPrev
       // 
       this.btnPrev.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.btnPrev.Image = global::BaseConocimiento.Properties.Resources.arrows_3;
+      this.btnPrev.Image = global::BaseConocimiento.Properties.Resources.arrows_78;
       this.btnPrev.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnPrev.Name = "btnPrev";
       this.btnPrev.Size = new System.Drawing.Size(28, 29);
@@ -176,7 +176,7 @@
       // btnNext
       // 
       this.btnNext.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.btnNext.Image = global::BaseConocimiento.Properties.Resources.arrows_1;
+      this.btnNext.Image = global::BaseConocimiento.Properties.Resources.arrows_7;
       this.btnNext.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnNext.Name = "btnNext";
       this.btnNext.Size = new System.Drawing.Size(28, 29);
@@ -187,7 +187,7 @@
       // btnLast
       // 
       this.btnLast.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.btnLast.Image = global::BaseConocimiento.Properties.Resources.play;
+      this.btnLast.Image = global::BaseConocimiento.Properties.Resources.arrows_5;
       this.btnLast.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnLast.Name = "btnLast";
       this.btnLast.Size = new System.Drawing.Size(28, 29);
@@ -195,29 +195,29 @@
       this.btnLast.ToolTipText = "Último";
       this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
       // 
-      // btnComplete
-      // 
-      this.btnComplete.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-      this.btnComplete.ForeColor = System.Drawing.Color.MediumBlue;
-      this.btnComplete.Image = global::BaseConocimiento.Properties.Resources._interface;
-      this.btnComplete.ImageTransparentColor = System.Drawing.Color.Magenta;
-      this.btnComplete.Name = "btnComplete";
-      this.btnComplete.Size = new System.Drawing.Size(117, 29);
-      this.btnComplete.Text = "Completa";
-      this.btnComplete.ToolTipText = "Vista Completa";
-      this.btnComplete.Click += new System.EventHandler(this.btnComplete_Click);
-      // 
       // btnResume
       // 
       this.btnResume.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
       this.btnResume.ForeColor = System.Drawing.Color.Green;
-      this.btnResume.Image = global::BaseConocimiento.Properties.Resources.interface1;
+      this.btnResume.Image = global::BaseConocimiento.Properties.Resources.note;
       this.btnResume.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.btnResume.Name = "btnResume";
       this.btnResume.Size = new System.Drawing.Size(112, 29);
       this.btnResume.Text = "Resumen";
       this.btnResume.ToolTipText = "Vista Resumen";
       this.btnResume.Click += new System.EventHandler(this.btnResume_Click);
+      // 
+      // btnComplete
+      // 
+      this.btnComplete.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+      this.btnComplete.ForeColor = System.Drawing.Color.MediumBlue;
+      this.btnComplete.Image = global::BaseConocimiento.Properties.Resources.agenda;
+      this.btnComplete.ImageTransparentColor = System.Drawing.Color.Magenta;
+      this.btnComplete.Name = "btnComplete";
+      this.btnComplete.Size = new System.Drawing.Size(117, 29);
+      this.btnComplete.Text = "Completa";
+      this.btnComplete.ToolTipText = "Vista Completa";
+      this.btnComplete.Click += new System.EventHandler(this.btnComplete_Click);
       // 
       // Form1
       // 
