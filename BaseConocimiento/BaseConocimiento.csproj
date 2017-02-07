@@ -109,6 +109,45 @@
   <ItemGroup>
     <None Include="Resources\Info.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear Filters.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filled Filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download from the Cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searching-magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\track.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interface1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
